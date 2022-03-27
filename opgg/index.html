@@ -1,12 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>롤 전적 검색 OP.GG - 전점검색, 관전, 리플레이, 챔피언 공략, 카운터, 랭킹</title>
+    <link rel="shortcut icon" href="./assets/faviconV2.png">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav id="header__nav__top">
+            <div id="header__nav_logo">
+                <a href="">
+                    <img src="https://s-lol-web.op.gg/images/icon/opgglogo.svg?v=1648211565738" alt="op.gg logo">
+                </a>
+            </div>
+            <div id="header__nav__menu">
+                <ul>
+                    <li>
+                        <a href="" id="header__nav__menu__a__lol">
+                            <img src="https://opgg-gnb.akamaized.net/static/images/icons/img-navi-lol-white.svg?image=q_auto,f_webp,w_48&v=1648211565738
+                            " alt="리그오브레전드">
+                            <span>리그오브레전드</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://duo.op.gg/">
+                            <img src="https://opgg-gnb.akamaized.net/static/images/icons/img-navi-duo-gray.svg?image=q_auto,f_webp,w_48&v=1648211565738" alt="Duo">
+                            <span>Duo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://qwer.gg/">
+                            <img src="https://opgg-gnb.akamaized.net/static/images/icons/opgg%20favicon%20white_220107.svg?image=q_auto,f_webp,w_48&v=1648211565738" alt="QWER (이스포츠 전적)">
+                            <span>QWER (이스포츠 전적)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://valorant.op.gg/">
+                            <img src="https://opgg-gnb.akamaized.net/static/images/icons/img-navi-valorant-white.svg?image=q_auto,f_webp,w_48&v=1648211565738" alt="발로란트">
+                            <span>발로란트</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://pubg.op.gg/">
+                            <img src="https://opgg-gnb.akamaized.net/static/images/icons/img-navi-pubg-gray.svg?image=q_auto,f_webp,w_48&v=1648211565738" alt="배틀그라운드">
+                            <span>배틀그라운드</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://overwatch.op.gg/">
+                            <img src="https://opgg-gnb.akamaized.net/static/images/icons/img-navi-overwatch-gray.svg?image=q_auto,f_webp,w_48&v=1648211565738" alt="오버워치">
+                            <span>오버워치</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://er.op.gg/">
+                            <img src="https://opgg-gnb.akamaized.net/static/images/icons/img_navi_bs.svg?image=q_auto,f_webp,w_48&v=1648211565738" alt="이터널 리턴">
+                            <span>이터널 리턴</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://talk.op.gg/">
+                            <img src="https://opgg-gnb.akamaized.net/static/images/icons/img-navi-talk-gray.svg?image=q_auto,f_webp,w_48&v=1648211565738" alt="톡피지지">
+                            <span>톡피지지</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://op.gg/desktop/">
+                            <img src="https://opgg-gnb.akamaized.net/static/images/icons/01-icon-00-logo-icon-opggsquare.svg?image=q_auto,f_webp,w_48&v=1648211565738" alt="데스크톱">
+                            <span>데스크톱</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="header__nav__login">
+                <a href="">
+                    로그인
+                </a>
+            </div>
+        </nav>
+        <nav id="bottom__nav">
+                <ul>
+                    <li id="first__list" style="padding-left: 0px;">
+                        <a href="">홈</a>
+                    </li>
+                    <li>
+                        <a href="https://www.op.gg/champions">챔피언 분석</a>
+                    </li>
+                    <li>
+                        <a href="https://www.op.gg/modes/aram">칼바람</a>
+                    </li>
+                    <li>
+                        <a href="https://www.op.gg/modes/urf">우르프</a>
+                    </li>
+                    <li>
+                        <a href="https://www.op.gg/statistics/champions?region=kr">통계</a>
+                    </li>
+                    <li>
+                        <a href="https://www.op.gg/leaderboards/tier?region=kr">랭킹</a>
+                    </li>
+                    <li>
+                        <a href="https://www.op.gg/spectate/live/pro-gamer?region=kr">프로관전</a>
+                    </li>
+                    <li>
+                        <a href="https://www.op.gg/multisearch/kr">멀티서치</a>
+                    </li>
+                    <li>
+                        <a href="https://news.op.gg/">OP셜</a>
+                    </li>
+                    <li>
+                        <a href="https://talk.op.gg/s/lol/all?sort=popular">커뮤니티</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="header__announce">
+            <div id="header__announce__center__align">
+                <a href="https://talk.op.gg/s/lol/free/5035576">
+                    이용 약관 및 개인정보 처리 방침 개정 안내(시행일: 4월 12일)
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
 </body>
+
 </html>

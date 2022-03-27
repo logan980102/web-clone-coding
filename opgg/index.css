@@ -1,0 +1,125 @@
+html, body {
+    font-family: Roboto,Noto sans kr,"Apple SD Gothic Neo",Malgun Gothic,sans-serif!important;
+}
+header, main {
+    background-color: #5383E8;
+}
+#header__nav__top {
+    height: 40px;
+    background-color: #232f46;
+    align-items: center;
+}
+
+#header__nav_logo {
+    width: 98px;
+    height: 40px;
+    float: left;
+    background-color: #5383e8;
+}
+
+#header__nav_logo a {
+    width: 98px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+#header__nav_logo img{
+    width: 65px;
+    height: 16px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#header__nav__menu {
+    float: left;
+}
+#header__nav__menu a {
+    height: 40px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#header__nav__menu__a__lol {
+    background-color: #5383e8;
+    width: 125.28px;
+    padding-left: 4px;
+    padding-right: 12px;
+}
+
+#header__nav__menu li{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
+
+#header__nav__menu li img {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header__nav__menu a:hover {
+    background-color: rgb(59, 133, 202);
+    opacity: 30%;
+    color: white;
+    border-radius: 4px;
+}
+
+#header__nav__login {
+    background-color: #5383E8;
+    color: #FFF;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 4px 16px;
+    position: absolute;
+    top: 9px;
+    right: 19px;
+}
+
+/* 헤더 탑 메뉴 끝 */
+
+#bottom__nav {
+    background-color: #5383e8;
+    height: 48px;
+    margin: 0 auto;
+    width: 1300px;
+    position: relative;
+    color: #B3CDFF;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
+#bottom__nav li {
+    display: inline-block;
+    padding: 15px 0 15px 26px;
+}
+
+#first__list {
+    border-bottom: 3px solid #FFF;
+    color: #FFF;
+}
+
+#bottom__nav a:not(.a1):hover {
+    color: #FFF;
+    border-bottom: 3px solid #FFF;
+}
+
+#header__announce {
+    background-color: #294174;
+    height: 40px;
+}
+
+#header__announce__center__align {
+    margin: 0 auto;
+    width: 1080px;
+    position: relative;
+}
+
+#header__announce__center__align a {
+    color: #FFF;
+    font-size: 12px;
+    line-height: 40px;
+}
