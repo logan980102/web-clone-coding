@@ -123,3 +123,23 @@ header, main {
     font-size: 12px;
     line-height: 40px;
 }
+
+/* header nav 종료 */
+
+#main__center__align {
+    margin: 0 auto;
+    width: 1080px;
+    position: relative;
+}
+#main__img {
+    margin: 0 auto;
+    width: 1080px;
+    position: relative;
+    padding: 32px 0 24px 0;
+    text-align: center;
+}
+
+#main__img img {
+    width: 345.906px;
+    height: 200px;
+}
