@@ -143,3 +143,38 @@ header, main {
     width: 345.906px;
     height: 200px;
 }
+
+#search__con {
+    width: 624px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#search__con input {
+    width: 100%;
+    padding: 15px 150px 18px 17px;
+    border: 0;
+    height: 50px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 19%);
+    border-radius: 4px;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+#search__con button {
+    width: 50px;
+    height: 30px;
+    background: #01a9ff;
+    border-radius: 2px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+#ad__con {
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
